@@ -1,0 +1,5 @@
+package-lock.json -diff
+
+packages/node_modules/* linguist-vendored=false
+packages/node_modules/** linguist-vendored=false
+packages/node_modules/**/* linguist-vendored=false
