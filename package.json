@@ -176,7 +176,7 @@
     "@babel/traverse": "^7.14.9",
     "@babel/types": "^7.14.9",
     "@commitlint/cli": "^15.0.0",
-    "@commitlint/config-conventional": "^15.0.0",
+    "@commitlint/config-conventional": "^17.0.2",
     "@sinonjs/fake-timers": "^6.0.1",
     "@wdio/allure-reporter": "^7.19.5",
     "@wdio/browserstack-service": "^7.19.5",
