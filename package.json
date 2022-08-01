@@ -195,7 +195,7 @@
     "chromedriver": "^101.0.0",
     "documentation": "^13.2.5",
     "documentation-theme-utils": "^3.0.0",
-    "eslint": "^8.13.0",
+    "eslint": "^8.21.0",
     "eslint-plugin-import": "^2.26.0",
     "eslint-plugin-mocha": "^10.0.4",
     "expect-webdriverio": "^3.3.1",
