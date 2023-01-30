@@ -3631,17 +3631,29 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@wdio/mocha-framework@npm:^7.19.5":
-  version: 7.26.0
-  resolution: "@wdio/mocha-framework@npm:7.26.0"
+"@wdio/logger@npm:8.1.0":
+  version: 8.1.0
+  resolution: "@wdio/logger@npm:8.1.0"
+  dependencies:
+    chalk: "npm:^5.1.2"
+    loglevel: "npm:^1.6.0"
+    loglevel-plugin-prefix: "npm:^0.8.4"
+    strip-ansi: "npm:^6.0.0"
+  checksum: 12bb00735abb0942ba2400812442bb2ce981e5c31ab7a63509a7361fb0b5e1483c6560e065190bc9c565544695bf5d7648feaabfae61365147638f2acdd5e05c
+  languageName: node
+  linkType: hard
+
+"@wdio/mocha-framework@npm:^8.3.0":
+  version: 8.3.0
+  resolution: "@wdio/mocha-framework@npm:8.3.0"
   dependencies:
     "@types/mocha": "npm:^10.0.0"
-    "@wdio/logger": "npm:7.26.0"
-    "@wdio/types": "npm:7.26.0"
-    "@wdio/utils": "npm:7.26.0"
-    expect-webdriverio: "npm:^3.0.0"
+    "@types/node": "npm:^18.0.0"
+    "@wdio/logger": "npm:8.1.0"
+    "@wdio/types": "npm:8.3.0"
+    "@wdio/utils": "npm:8.3.0"
     mocha: "npm:^10.0.0"
-  checksum: ffce47171833abb56074e78f29deb6a576012fadcb0aecc09bde4fd858206380971b43d89b095cb8fe95bf0aa9bd45d51d25edde88b4b8df3b226be2cb373988
+  checksum: ffdc1eb6379692887de248deef23913e3d6b1b88aa194b82fc013ab8403f30a4ea822a0fc2922f4ac70b279e35a23c062578cbd9060d98ffab17ba32adbd4a68
   languageName: node
   linkType: hard
 
@@ -3807,6 +3819,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@wdio/types@npm:8.3.0":
+  version: 8.3.0
+  resolution: "@wdio/types@npm:8.3.0"
+  dependencies:
+    "@types/node": "npm:^18.0.0"
+  checksum: 2548157f0039a1f368252100f09748d6036368b1298a019103b05061236f4ba2b5ea00842d18548bab26581706747e681ab0d7e5a8a27019dff8d8c620af18c5
+  languageName: node
+  linkType: hard
+
 "@wdio/utils@npm:6.11.0":
   version: 6.11.0
   resolution: "@wdio/utils@npm:6.11.0"
@@ -3824,6 +3845,18 @@ __metadata:
     "@wdio/types": "npm:7.26.0"
     p-iteration: "npm:^1.1.8"
   checksum: ad0c61d1e27afd33d384f1af8f59cbddc70147e3fbbb8d013591c0dce6a193a3465e4764b98abcc0f76e774ced948a35f4cb379b220eff34a2eeb6ba57a18062
+  languageName: node
+  linkType: hard
+
+"@wdio/utils@npm:8.3.0":
+  version: 8.3.0
+  resolution: "@wdio/utils@npm:8.3.0"
+  dependencies:
+    "@wdio/logger": "npm:8.1.0"
+    "@wdio/types": "npm:8.3.0"
+    import-meta-resolve: "npm:^2.2.0"
+    p-iteration: "npm:^1.1.8"
+  checksum: c69a930cd6098478942706f4c9209a997aa2ca372b563c7208ef32febc3c8b00cd844f40b2dd2236a424f6148149db6fe7a79af59696de3e35065bef3178e12d
   languageName: node
   linkType: hard
 
@@ -7446,7 +7479,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"chalk@npm:^5.0.1":
+"chalk@npm:^5.0.1, chalk@npm:^5.1.2":
   version: 5.2.0
   resolution: "chalk@npm:5.2.0"
   checksum: c3c31253b9cb445ca917aab30767282a1c1951fb8d60e1e8389a3d6434eee296dae28a2b02871c89a866ed7e560438aaea4c5d290242e5fb50b5eda2b4ea4061
@@ -10514,7 +10547,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"expect-webdriverio@npm:^3.0.0, expect-webdriverio@npm:^3.3.1":
+"expect-webdriverio@npm:^3.3.1":
   version: 3.5.3
   resolution: "expect-webdriverio@npm:3.5.3"
   dependencies:
@@ -12833,6 +12866,13 @@ __metadata:
   bin:
     import-local-fixture: fixtures/cli.js
   checksum: 4753863de0c7044952a56f13caa723b05ca80604da4197fd39ca2fe902fc58798164022c2c89a794eb5de273c0ecb70d3357b3c67bb0453269b2f6d9a7ae8a0c
+  languageName: node
+  linkType: hard
+
+"import-meta-resolve@npm:^2.2.0":
+  version: 2.2.1
+  resolution: "import-meta-resolve@npm:2.2.1"
+  checksum: e542dfaa6c0ec1c267c542f1b13b850272ab8b8ec726001e435d403fe7d7ba185dc7d5c3419b856beb45153ec7d6047f679d52f5b32e5e1bc7b704aa971531fa
   languageName: node
   linkType: hard
 
@@ -22750,7 +22790,7 @@ __metadata:
     "@wdio/firefox-profile-service": "npm:^7.19.5"
     "@wdio/junit-reporter": "npm:^7.19.5"
     "@wdio/local-runner": "npm:^7.19.5"
-    "@wdio/mocha-framework": "npm:^7.19.5"
+    "@wdio/mocha-framework": "npm:^8.3.0"
     "@wdio/sauce-service": "npm:^7.19.5"
     "@wdio/spec-reporter": "npm:^7.19.5"
     "@wdio/static-server-service": "npm:^7.19.5"
