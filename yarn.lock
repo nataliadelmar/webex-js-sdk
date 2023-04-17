@@ -5155,7 +5155,7 @@ __metadata:
     errorhandler: "npm:^1.5.1"
     express: "npm:^4.17.1"
     express-session: "npm:^1.16.2"
-    express-validator: "npm:^5.3.1"
+    express-validator: "npm:^7.0.1"
     lodash: "npm:^4.17.21"
     morgan: "npm:^1.9.1"
     on-finished: "npm:^2.3.0"
@@ -10589,13 +10589,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"express-validator@npm:^5.3.1":
-  version: 5.3.1
-  resolution: "express-validator@npm:5.3.1"
+"express-validator@npm:^7.0.1":
+  version: 7.0.1
+  resolution: "express-validator@npm:7.0.1"
   dependencies:
-    lodash: "npm:^4.17.10"
-    validator: "npm:^10.4.0"
-  checksum: 959f090b0647514dba818fa54f0b0c0d0504f611bc581cfff18346cde41d0152305a649aecc71477dcace945c482a7fc97a48d6c31a09bcaef5ce05830fbce12
+    lodash: "npm:^4.17.21"
+    validator: "npm:^13.9.0"
+  checksum: 656e4db5a327cd4f7f37ed27a0b51d2f8f7a081cb9e6d1a82fc2295e72420bfa8989b25dbd665b8f086a9acc2c606027b790067ad08d9b0b1bfba1ee42913bbd
   languageName: node
   linkType: hard
 
@@ -22298,17 +22298,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"validator@npm:^10.4.0":
-  version: 10.11.0
-  resolution: "validator@npm:10.11.0"
-  checksum: b24c61c0c2490e3f04b248e9b2b3fa5af7a4aafbd44175b0d4257df657f2feb57b9251eb03c73564bcb35be0386518b1e18646724c85ba8c88618e7db024cdc0
-  languageName: node
-  linkType: hard
-
 "validator@npm:^13.0.0":
   version: 13.7.0
   resolution: "validator@npm:13.7.0"
   checksum: 1c42a259d072334c89dbd94ae026901a8a85dc7389f24a00650a38827ab44ee563370b896b4cc318697587e7aa93d230fdfa527d78c187b08f9816af23025a74
+  languageName: node
+  linkType: hard
+
+"validator@npm:^13.9.0":
+  version: 13.9.0
+  resolution: "validator@npm:13.9.0"
+  checksum: f9839f6c59d717dbce3f34cc20314b2bd9c39847fe543f56e87fc6874461c63f0196dc4c8ed81febf0cc2ae1c67dc47347ac2076ea3d35fa141a94d19eb5c9f5
   languageName: node
   linkType: hard
 
@@ -22786,7 +22786,7 @@ __metadata:
     expect-webdriverio: "npm:^3.3.1"
     express: "npm:^4.17.1"
     express-session: "npm:^1.16.2"
-    express-validator: "npm:^5.3.1"
+    express-validator: "npm:^7.0.1"
     firefox-profile: "npm:^4.0.0"
     fs-extra: "npm:^8.1.0"
     geckodriver: "npm:^3.0.1"
