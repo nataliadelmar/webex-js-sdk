@@ -21,7 +21,7 @@
     "@webex/test-helper-chai": "workspace:^",
     "@webex/test-helper-mocha": "workspace:^",
     "@webex/test-helper-test-users": "workspace:^",
-    "eslint": "^8.24.0",
+    "eslint": "^8.45.0",
     "prettier": "^2.7.1",
     "sinon": "^9.2.4"
   },

@@ -14,7 +14,7 @@
   ],
   "devDependencies": {
     "@webex/eslint-config": "workspace:^",
-    "eslint": "^8.35.0"
+    "eslint": "^8.45.0"
   },
   "peerDependencies": {
     "@webex/jasmine-config": "workspace:^",
