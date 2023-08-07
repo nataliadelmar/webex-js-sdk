@@ -5267,7 +5267,7 @@ __metadata:
     node-jose: ^2.2.0
     node-kms: ^0.4.0
     node-scr: ^0.3.0
-    pkijs: ^2.1.84
+    pkijs: ^3.0.15
     prettier: ^2.7.1
     safe-buffer: ^5.2.0
     sinon: ^9.2.4
@@ -7672,7 +7672,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"asn1js@npm:^3.0.1, asn1js@npm:^3.0.3, asn1js@npm:^3.0.5":
+"asn1js@npm:^3.0.1, asn1js@npm:^3.0.5":
   version: 3.0.5
   resolution: "asn1js@npm:3.0.5"
   dependencies:
@@ -8866,10 +8866,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"bytestreamjs@npm:^1.0.29":
-  version: 1.1.3
-  resolution: "bytestreamjs@npm:1.1.3"
-  checksum: 3f8482f25d7104c44aed94036113e5007a13f2400291c9b4709932d30491a13fc2a7f1b38b4b02e22dbe8a07da98c9c3d5c61123fa9db47e5cfa307c5f747b8b
+"bytestreamjs@npm:^2.0.0":
+  version: 2.0.1
+  resolution: "bytestreamjs@npm:2.0.1"
+  checksum: db4cb039794675a0ec1f097d228e4897378cdf5f794dca04fc3bff63efb466524fcfac95e59e89e928822a80fad7574734c02b8eace9e841d8599da43c82768a
   languageName: node
   linkType: hard
 
@@ -20895,14 +20895,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"pkijs@npm:^2.1.84":
-  version: 2.4.0
-  resolution: "pkijs@npm:2.4.0"
+"pkijs@npm:^3.0.15":
+  version: 3.0.15
+  resolution: "pkijs@npm:3.0.15"
   dependencies:
-    asn1js: ^3.0.3
-    bytestreamjs: ^1.0.29
+    asn1js: ^3.0.5
+    bytestreamjs: ^2.0.0
+    pvtsutils: ^1.3.2
     pvutils: ^1.1.3
-  checksum: 0534d3ff4eb50ebe93818cc93a5190d78d4702ba55c0ffd270e10fddc58659b75f5d52b17ac0b100ad65757d595e5cc2985e646db4b295a09fb0c37eed58cae3
+    tslib: ^2.4.0
+  checksum: b9db0d98585bc0fc6f56d5cccf2df4a9f110e6abeb3fbabd2e412dc73d1dde318b360f7d7149fca26ad728d8a358827a9b97e06524e76e11e2a45e9cc9e9deaa
   languageName: node
   linkType: hard
 
