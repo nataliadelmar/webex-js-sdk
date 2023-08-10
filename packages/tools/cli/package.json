@@ -40,7 +40,7 @@
     "@webex/jasmine-config": "workspace:^",
     "@webex/nyc-config": "workspace:^",
     "@webex/typescript-config": "workspace:^",
-    "eslint": "^8.35.0",
+    "eslint": "^8.45.0",
     "jasmine": "^4.5.0",
     "nyc": "^15.1.0",
     "rimraf": "^4.1.2",
